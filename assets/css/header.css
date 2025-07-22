@@ -1,0 +1,19 @@
+header{
+    width: 1024px; /* O tamanho que vai ocupar na tela*/
+    margin: 0 auto; /* aqui a gente retira a margin top e bottom e deixa igual nas laterais*/
+
+    display: flex; /* colocamos o display flex*/
+    flex-direction: row; /* deixa na horizontal*/
+    align-items: center; /*deixa os elementos centralizados */
+    justify-content: space-between; /* dividimos os elementos na tela*/
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+header nav ul li{
+    padding: 0 15px; /* Espaçamentos entre os itens LI, apenas nas laterais.*/
+}
