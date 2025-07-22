@@ -1,9 +1,4 @@
-header{
-    width: 1024px; /* O tamanho que vai ocupar na tela*/
-    margin: 30px auto; /* aqui a gente mexe na margin top e bottom e deixa igual nas laterais*/
-
-    display: flex; /* colocamos o display flex*/
-    flex-direction: row; /* deixa na horizontal*/
+header section{
     align-items: center; /*deixa os elementos centralizados */
     justify-content: space-between; /* dividimos os elementos na tela*/
 }

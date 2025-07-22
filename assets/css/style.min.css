@@ -13,3 +13,15 @@
     vertical-align: baseline;
     text-decoration: none;
 }
+
+.container{
+    width: 1024px; /* O tamanho que vai ocupar na tela*/
+    margin: 30px auto; /* aqui a gente mexe na margin top e bottom e deixa igual nas laterais*/
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
