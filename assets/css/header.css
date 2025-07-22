@@ -1,6 +1,6 @@
 header{
     width: 1024px; /* O tamanho que vai ocupar na tela*/
-    margin: 0 auto; /* aqui a gente retira a margin top e bottom e deixa igual nas laterais*/
+    margin: 30px auto; /* aqui a gente mexe na margin top e bottom e deixa igual nas laterais*/
 
     display: flex; /* colocamos o display flex*/
     flex-direction: row; /* deixa na horizontal*/
@@ -11,9 +11,11 @@ header{
 header nav ul{
     display: flex;
     flex-direction: row;
+    align-items: center;
     list-style: none;
 }
 
-header nav ul li{
-    padding: 0 15px; /* Espaçamentos entre os itens LI, apenas nas laterais.*/
+header nav ul li a{
+    color: #3399cc;
+    margin: 0 15px; /* Espaçamentos entre os itens LI, apenas nas laterais.*/
 }
