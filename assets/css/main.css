@@ -1,0 +1,35 @@
+/* Modificações da tag main*/ 
+.sobre-web-desing{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobre-web-desing article{
+    width: 250px; /* O tamanho da tela*/ 
+}
+.sobre-web-desing article h1{
+    font-size: 70px;
+    line-height: 90%; /* espaçamento do meio entre as palavras*/ 
+    font-weight: 400;
+    color: #333366;
+}
+
+.sobre-web-desing article h2,
+.sobre-web-desing article p{
+    color: #3399cc; /* como a mesma cor está sendo utilizada para as mesmas tags, entao juntar para nao cair na repetição*/ 
+}
+
+.sobre-web-desing article h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px; /* espaçamento entre caracter*/ 
+    line-height: 200%; 
+}
+
+.sobre-web-desing article p{
+    margin: 10px 0 40px 0;
+}
+
+.sobre-web-desing figcaption img{
+    width: 700px; /* tamanho da imagem*/ 
+}
